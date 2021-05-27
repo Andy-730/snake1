@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Snake Game</title>
+  </head>
+  
+  <body>
+    
+
+    <div id="score">0</div>
+    <div style="text-align: center;"><button onclick="restart()">重新開始</button></div>
+    <canvas id="snakeboard" width="400" height="400"></canvas>
+
+    <style>
+
+body {
+  background-image: url('https://imgur.com/LZb3bgk.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+      #snakeboard {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      #score {
+        text-align: center;
+        font-size: 140px;
+      }
+      
+      
+
+    </style>
+
+    <script src="snake_game.js"></script>
+
+    
+    
+    
+  </body>
+</html>
